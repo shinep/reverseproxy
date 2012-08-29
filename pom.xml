@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.github.reverseproxy</groupId>
     <artifactId>maven-reverseproxy-plugin</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>ReverseProxy</name>
     <url>http://maven.apache.org</url>
