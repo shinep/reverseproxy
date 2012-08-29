@@ -8,9 +8,9 @@
         <version>7</version>
     </parent>
     
-    <groupId>com.nokia.music.reverseproxy</groupId>
-    <artifactId>reverseproxy-maven-plugin</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <groupId>com.github.reverseproxy</groupId>
+    <artifactId>maven-reverseproxy-plugin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
     <packaging>maven-plugin</packaging>
   <name>ReverseProxy</name>
@@ -19,6 +19,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+    <scm>
+        <connection>scm:git:git@github.com:shinep/reverseproxy.git</connection>
+        <developerConnection>scm:git:git@github.com:shinep/reverseproxy.git</developerConnection>
+        <url>git@github.com:shinep/reverseproxy.git</url>
+    </scm>
   
    <build>
         <plugins>
